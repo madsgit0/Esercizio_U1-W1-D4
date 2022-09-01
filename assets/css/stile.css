@@ -43,8 +43,9 @@ h1{
     padding-bottom: 2rem;
 }
 
-/* 
-capire come fare la parte delle icone */
+article>p:nth-child(2){
+    color: #97a99c;
+}
 
 strong{
     font-weight: 500;
@@ -53,6 +54,11 @@ strong{
 
 p{
     padding-bottom: 2rem;
+}
+
+a{
+    color: #3196c7;
+    font-weight: 500;
 }
 
 ul, ol {
@@ -67,11 +73,21 @@ code{
 }
 
 iframe{
+    width: 100%;
     border-radius: 2rem;
-    
 }
 
 /* TABELLE */
+
+table{
+    border-bottom: solid 3px #339ec8;
+    margin-bottom: 2rem;
+}
+
+caption{
+    font-style: italic;
+    font-weight: 500;
+}
 
 thead{
     background-color: #4573e6;
@@ -88,16 +104,11 @@ th{
     border: solid white 1px;
 }
 
-t body tr:nth-child(even){
-    background-color: #9e1a1a;
+
+tbody tr:nth-child(even){
+    background-color: #f2f2f2;
+    border-bottom: solid 1px #dde3e4;
 }
-
-
-
-
-
-
-
 
 /* FORM */
 
@@ -113,12 +124,7 @@ section h2, aside h2{
     padding-bottom: 2 rem;
     text-transform: uppercase;
     text-align: center;
-    font-weight: 400;
-}
-
-form{
-    background-color: green;
-
+    font-weight: 500;
 }
 
 fieldset{
@@ -130,16 +136,21 @@ input {
     height: 40px;
     font-size: 20px;
     border: none;
-    border-bottom: 1px dashed grey;
+    border-bottom: 2px dashed grey;
     margin: 0;
     padding: 0;
+    text-indent: 5px ;
+    font-weight: lighter;
 }
 
 
 button {
     width: 100px;
-    height: 40px;
+    height: 35px;
     font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #2d6bc8;
     border: none;
     margin: 0;
     padding: 0;
@@ -152,8 +163,7 @@ aside div{
     padding: 1.2rem;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-    
-    
+    border: solid 2px #ddd3d3;
 }
 
 aside a {
@@ -165,6 +175,7 @@ aside div p:last-child{
     font-size: 1rem;
     text-align: end;
     margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 
