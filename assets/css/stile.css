@@ -65,18 +65,69 @@ code{
     border: solid 1px #666a69;
 }
 
+iframe{
+    border-radius: 2rem;
+    
+}
+
 /* TABELLE */
 
 
 
 /* FORM */
 
+section{
+    background-color: #e3e0df;
+    padding: 1.2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+section h2, aside h2{
+    font-size: 2rem;
+    padding-bottom: 2 rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+}
+
+form{
+    background-color: green;
+
+}
+
+fieldset{
+    height: 30px;
+}
 
 
 /* ELEMENTI NELL' ASIDE */
 
+aside div{
+    background-color: #e3e0df;
+    padding: 1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    
+    
+}
 
+aside a {
+    color: #339ec8;
+    font-weight: 500;
+}
 
+aside div p:last-child{
+    color: red;
+    font-size: 1rem;
+    text-align: end;
+}
+
+aside a::after{
+    content: "f0c0";
+}
+    
+    
 /* FOOTER */
 
 
