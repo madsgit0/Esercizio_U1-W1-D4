@@ -14,6 +14,7 @@ header{
     padding: ;
     text-align: center;
     background-color: green;
+    list-style: none;
 }
 
 
@@ -72,6 +73,30 @@ iframe{
 
 /* TABELLE */
 
+thead{
+    background-color: #4573e6;
+    color: white;
+    font-weight: 300;
+}
+
+th, td{
+    padding: 1rem;
+    text-align: center;
+}
+
+th{
+    border: solid white 1px;
+}
+
+t body tr:nth-child(even){
+    background-color: #9e1a1a;
+}
+
+
+
+
+
+
 
 
 /* FORM */
@@ -97,9 +122,28 @@ form{
 }
 
 fieldset{
-    height: 30px;
+    height: 40px;
 }
 
+input {
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px dashed grey;
+    margin: 0;
+    padding: 0;
+}
+
+
+button {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
 
 /* ELEMENTI NELL' ASIDE */
 
@@ -118,9 +162,9 @@ aside a {
 }
 
 aside div p:last-child{
-    color: red;
     font-size: 1rem;
     text-align: end;
+    margin-bottom: 0;
 }
 
 
