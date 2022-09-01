@@ -177,10 +177,28 @@ aside div p:last-child{
     margin-bottom: 0;
     padding-bottom: 0;
 }
-
-
-    
     
 /* FOOTER */
+
+footer{
+    margin: 5%;
+    padding: 5%;
+    box-shadow: 0px 5px 3px #000000bd;
+    background: linear-gradient(0deg, #262728 0%, #175665 100%);
+    font-size: 1.1rem;
+    line-height: normal;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+
+footer p{
+    padding-bottom: 1.2rem;
+}
+
+address a{
+    color: #f70eff;
+    font-weight: 700;
+}
 
 
