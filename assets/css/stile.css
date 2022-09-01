@@ -123,9 +123,7 @@ aside div p:last-child{
     text-align: end;
 }
 
-aside a::after{
-    content: "f0c0";
-}
+
     
     
 /* FOOTER */
